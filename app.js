@@ -11,7 +11,7 @@ let { ttdl } = require("btch-downloader");
 let { twitterdown } = require("nayan-media-downloader");
 let { fbdown } = require("btch-downloader");
 const { ytdown } = require("nayan-media-downloader");
-var Port = process.env.PORT || 8000
+var Port = 8000
 
 app.get("/", (req, res) => {
   res.send("Your APIs are working. Happy Coding!");
