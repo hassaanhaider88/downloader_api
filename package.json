@@ -1,0 +1,19 @@
+{
+  "name": "hmk_downloader",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "btch-downloader": "^2.3.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nayan-media-downloader": "^2.5.7"
+  }
+}
